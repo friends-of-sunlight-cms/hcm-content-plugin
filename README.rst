@@ -13,10 +13,10 @@ Requirements
 Usage
 *****
 
+For content wrapping it is possible to set a custom template in the plugin configuration, using placeholders (``%id%``, ``%slug%``, ``%perex%``, ``%picture%`` (for article), ``%content%``).
+
 Page content
 ^^^^^^^^^^^^
-
-For content wrapping it is possible to set a custom template in the plugin configuration, using placeholders (``%id%``, ``%slug%``, ``%perex%``, ``%picture%`` (for article), ``%content%``).
 
 ::
 
