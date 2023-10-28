@@ -1,0 +1,26 @@
+{
+    "$schema": "../../../system/schema/extend.json",
+    "name": "HCM content",
+    "description": "Adds HCM for loading content from other pages and articles.",
+    "version": "1.0.0",
+    "authors": [
+        {"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"}
+    ],
+    "environment": {
+        "system": "^8.0"
+    },
+    "config_defaults": {
+        "page_template": "",
+        "article_template": ""
+    },
+    "actions": {
+        "config": "ConfigAction"
+    },
+    "langs": {
+        "hcm-content": "lang"
+    },
+    "hcm": {
+        "page_content": {"script": "hcm/page_content.php"},
+        "article_content": {"script": "hcm/article_content.php"}
+    }
+}
